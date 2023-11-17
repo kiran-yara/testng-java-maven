@@ -8,6 +8,7 @@ To generate Allure Report you should perform following steps:
 ```bash
 $ git clone git@github.com:allure-examples/allure-testng-example.git
 $ ./mvnw clean test site
+
 ```
 
 Report will be generated to `target/site/allure-maven-plugin` folder. To open the report you can use the following command:
