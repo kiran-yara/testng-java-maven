@@ -42,7 +42,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          destination_dir: api
+          destination_dir: ./api
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
