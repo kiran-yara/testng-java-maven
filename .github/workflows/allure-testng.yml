@@ -42,6 +42,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./api
           destination_dir: subdir
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
