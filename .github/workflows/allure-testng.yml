@@ -36,6 +36,7 @@ jobs:
           gh_pages: gh-pages
           allure_report: allure-report
           allure_history: allure-history
+          subfolder: IOS
 
       - name: Deploy report to GH Pages
         if: always()
